@@ -4,6 +4,7 @@ h1 {
 }
 nav {
     background-color: #154e13;
+    position: relative;
 }
 nav ul {
     list-style-type: none;
@@ -25,3 +26,44 @@ nav .active {
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+#menu-btn {
+    display: none; 
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;}
+    @media (max-width: 768px)
+     {
+        #menu-btn {
+            display: block; /* Show on mobile */
+        }
+    
+        #menu {
+            display: none; /* Hide menu initially */
+            flex-direction: column;
+            background-color: #333;
+            position: absolute;
+            top: 50px;
+            left: 0;
+            width: 100%;
+        }
+    
+        #menu.show {
+            display: flex; 
+        }
+    }
+    .dark-mode {
+        background-color: #121212;
+        color: white;
+    }
+    
+    .dark-mode nav {
+        background-color: #222;
+    }
+    
+    .dark-mode a {
+        color: lightblue;
+    }
+    
+
+    

@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stephen Omondi - WDD230 - Web Frontend Development</title>
     <meta name="description" content="Stephen Omondi - WDD210 - Course Assignment Portal">
     <meta name="author" content="Stephen Omondi">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+
 
     <link href="styles/base.css" rel="stylesheet">
     <link href="styles/larger.css" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,10 +21,13 @@
 </head>
 <body>
     <header>
+        <button id="dark-mode-toggle">🌙</button>
+
         <img src="images/profile pic.jpg" alt="Stephen Omondi profile" width="75" height="100"> 
         <span>Stephen Omondi</span>
     </header>
     <nav>
+        <button id="menu-btn">☰</button>
         <ul>
             <li><a href="index.html" class="active">Home</a></li>
             <li><a href="#">Chamber</a></li>
