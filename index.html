@@ -1,60 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <a href="Chamber/index.html">Visit the Chamber Site</a>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stephen Omondi - WDD230 - Web Frontend Development</title>
-    <meta name="description" content="Stephen Omondi - WDD210 - Course Assignment Portal">
-    <meta name="author" content="Stephen Omondi">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    
-
-
-    <link href="styles/base.css" rel="stylesheet">
-    <link href="styles/larger.css" rel="stylesheet">
-    <link href="styles/normalize.css" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>WDD 230 - Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <button id="dark-mode-toggle">🌙</button>
-
-        <img src="images/profile pic.jpg" alt="Stephen Omondi profile" width="75" height="100"> 
-        <span>Stephen Omondi</span>
+        <h1>WDD 230: Web Frontend Development</h1>
     </header>
-    <nav>
-        <button id="menu-btn">☰</button>
-        <ul>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="#">Chamber</a></li>
-            <li><a href="#">Site Plan</a></li>
-            <li><a href="#">Home</a></li>
-        </ul>
-    </nav>
     <main>
-        <h1>WDD 230: Web Fronted Development</h1>
-        <section>
-            <h2 class="card">Learning Activities</h2>
-            <ul>
-                <li><a href="#">Activity 1</a></li>
-                <li><a href="#">Activity 2</a></li>
-            </ul>
+        
+        <section class="hero">
+            <picture>
+                <source srcset="images/adelaide_australia_temple_lds.webp" media="(min-width: 960px)">
+                <source srcset="images/adelaide_australia_temple_lds.webp" media="(max-width: 400px)">
+
+                <img src="images/adelaide_australia_temple_lds.webp" alt="Australia Temple">
+            </picture>
+            <div class="overlay">Australia Temple</div>
         </section>
-        <section class="card">
-            <h2>Information</h2>
-            <p>Weather: Placeholder</p>
-            <P>Number of visits: Placeholder</P>
+        
+        <!-- Learning Activities -->
+        <section class="info">
+            <div class="learning">
+                <h2>Learning Activities</h2>
+                <ul>
+                    <li>Week 01: <a href="#">Grail</a> | <a href="#">Media Query</a></li>
+                    <li>Week 02: <a href="#">Design</a> | <a href="#">Menu</a> | <a href="#">BOM-25</a></li>
+                    <li>Week 03: <a href="#">WebP</a> | <a href="#">Lazy</a> | <a href="#">srcset</a> | <a href="#">localStorage</a></li>
+                </ul>
+            </div>
+            <div class="visit-info">
+                <h2>Information</h2>
+                <p>☀️ 76°F - Sunshine</p>
+                <p>Visit Count: <span id="visit-count">0</span></p>
+            </div>
+        </section>
+        
+        <!-- Google Map Embed -->
+        <section class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18..." loading="lazy" width="600" height="450" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
     <footer>
-        <p>&copy; <span id="year"></span>Stephen Omondi | Kenya</p>
-        <p id="lastmodified"></p>
+        <p>&copy; 2025 Stephen Omondi | BYU-Idaho | Last modified: <span id="last-modified"></span></p>
     </footer>
-    <script src="scripts/getDates.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
