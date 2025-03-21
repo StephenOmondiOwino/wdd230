@@ -94,27 +94,27 @@
             <h2>Explore Nairobi</h2>
             <div class="gallery">
                 <div>
-                    <img data-src="image/nairobi-skyline.jpg" alt="Nairobi Skyline" loading="lazy">
+                    <img data-src="Image/nairobi-skyline.jpg" alt="Nairobi Skyline" loading="lazy">
                     <p class="caption">Nairobi's vibrant skyline</p>
                 </div>
                 <div>
-                    <img data-src="image/Nairobi-national-park.jpg" alt="Nairobi National Park" loading="lazy">
+                    <img data-src="Image/Nairobi-national-park.jpg" alt="Nairobi National Park" loading="lazy">
                     <p class="caption">Nairobi National Park</p>
                 </div>
                 <div>
-                    <img data-src="image/local-market.jpg" alt="Local Market" loading="lazy">
+                    <img data-src="Image/local-market.jpg" alt="Local Market" loading="lazy">
                     <p class="caption">Bustling local market</p>
                 </div>
                 <div>
-                    <img data-src="image/business-conference.jpg" alt="Business Conference" loading="lazy">
+                    <img data-src="Image/business-conference.jpg" alt="Business Conference" loading="lazy">
                     <p class="caption">Annual Business Conference</p>
                 </div>
                 <div>
-                    <img data-src="image/National-Museum.jpg" alt="National Museum" loading="lazy">
+                    <img data-src="Image/National-Museum.jpg" alt="National Museum" loading="lazy">
                     <p class="caption">The National Museum of Kenya</p>
                 </div>
                 <div>
-                    <img data-src="image/luxury-hotel.jpg" alt="Luxury Hotel" loading="lazy">
+                    <img data-src="Image/luxury-hotel.jpg" alt="Luxury Hotel" loading="lazy">
                     <p class="caption">Luxury hotels for business and leisure</p>
                 </div>
             </div>
@@ -149,7 +149,7 @@
             images.forEach(img => observer.observe(img));
         });
 
-        // Track Last Visit
+        
         document.addEventListener("DOMContentLoaded", function () {
             const visitMessage = document.getElementById("visit-message");
             const lastVisit = localStorage.getItem("lastVisit");
@@ -169,7 +169,7 @@
                 }
             }
 
-            // Update last visit date
+        
             localStorage.setItem("lastVisit", currentDate);
         });
     </script>
