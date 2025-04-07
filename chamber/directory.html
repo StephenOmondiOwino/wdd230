@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Chamber Directory</title>
-  <link rel="stylesheet" href="styles/styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Directory | Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-  <header>
-    <h1>Chamber of Commerce</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="directory.html">Directory</a>
-    </nav>
-  </header>
+    <header>
+        <h1>Chamber of Commerce</h1>
+        <nav>
+            <!-- Your navigation links here -->
+        </nav>
+    </header>
+    
+    <main class="directory">
+        <h2>Member Directory</h2>
+        <div class="controls">
+            <button id="toggleView">Switch to List View</button>
+        </div>
+        <div id="member-container" class="grid-view"></div>
+    </main>
 
-  <main>
-    <div class="view-buttons">
-      <button id="grid">Grid View</button>
-      <button id="list">List View</button>
-    </div>
-    <div id="directory" class="grid-view"></div>
-  </main>
+    <footer>
+        <p>&copy; 2025 Chamber of Commerce</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
 
-  <footer>
-    <p>&copy; 2025 Chamber of Commerce</p>
-  </footer>
-
-  <script src="scripts/directory.js"></script>
+    <script src="scripts/directory.js"></script>
 </body>
 </html>
