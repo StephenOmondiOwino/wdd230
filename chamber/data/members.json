@@ -1,0 +1,68 @@
+{
+    "members": [
+      {
+        "name": "BrightTech Solutions",
+        "address": "123 Innovation Ave, Nairobi",
+        "phone": "+254-712-345678",
+        "website": "https://brighttech.co.ke",
+        "image": "brighttech.png",
+        "membership": "Gold",
+        "other": "Tech innovation and consulting services"
+      },
+      {
+        "name": "Greenfields Organics",
+        "address": "456 Eco Lane, Eldoret",
+        "phone": "+254-733-112233",
+        "website": "https://greenfields.co.ke",
+        "image": "greenfields.png",
+        "membership": "Silver",
+        "other": "Organic farm produce and delivery"
+      },
+      {
+        "name": "Urban Eats Café",
+        "address": "78 Downtown Street, Kisumu",
+        "phone": "+254-722-556677",
+        "website": "https://urbaneats.co.ke",
+        "image": "urbaneats.png",
+        "membership": "Bronze",
+        "other": "Cozy café with local cuisine"
+      },
+      {
+        "name": "SmartBuild Kenya",
+        "address": "Plot 9, Industrial Zone, Nairobi",
+        "phone": "+254-701-889900",
+        "website": "https://smartbuild.co.ke",
+        "image": "smartbuild.png",
+        "membership": "Gold",
+        "other": "Construction and architectural services"
+      },
+      {
+        "name": "WellCare Pharmacy",
+        "address": "23 Health Plaza, Nakuru",
+        "phone": "+254-734-445566",
+        "website": "https://wellcare.co.ke",
+        "image": "wellcare.png",
+        "membership": "Silver",
+        "other": "24/7 pharmaceutical services"
+      },
+      {
+        "name": "EduSmart Academy",
+        "address": "12 Learning Rd, Mombasa",
+        "phone": "+254-735-667788",
+        "website": "https://edusmart.co.ke",
+        "image": "edusmart.png",
+        "membership": "Gold",
+        "other": "Online and in-person tutoring"
+      },
+      {
+        "name": "Creative Designs Ltd",
+        "address": "34 Art Boulevard, Nairobi",
+        "phone": "+254-720-334455",
+        "website": "https://creativedesigns.co.ke",
+        "image": "creativedesigns.png",
+        "membership": "Bronze",
+        "other": "Graphic and web design agency"
+      }
+    ]
+  }
+  

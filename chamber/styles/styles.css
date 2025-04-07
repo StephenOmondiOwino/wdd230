@@ -36,3 +36,71 @@ input, textarea, select {
         gap: 20px;
     }
 }
+/* Container for grid layout */
+#membersContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Styling for each member card */
+.member-card {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Image styling for member logos */
+.member-card img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Styling for text */
+.member-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.member-card p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.member-card a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+/* List view styling */
+.list-view {
+    display: block;
+}
+
+.list-view .member-card {
+    display: block;
+    margin: 15px 0;
+    text-align: left;
+}
+
+/* Grid view styling (default) */
+.grid-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 20px;
+}
+/* Image styling for member logos */
+.member-card img {
+    max-width: 100px;  /* Limit the width of the logo */
+    height: auto;      /* Maintain aspect ratio */
+    margin-bottom: 15px;
+    border-radius: 50%;  /* Optional: make the image circular */
+}
+
+
