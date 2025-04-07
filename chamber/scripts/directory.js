@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const membersContainer = document.getElementById('membersContainer');
     const toggleViewButton = document.getElementById('toggleView');
 
-    fetch('data/members.json')
+    fetch('./data/members.json')
         .then(response => response.json())
         .then(members => {
             members.forEach(member => {
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
                 // Insert the image using the 'image' property from the JSON data
                 memberCard.innerHTML = `
-                    <img src="images/${member.image}" alt="${member.name} Logo" />
+                    <img src="./images/${member.image}" alt="${member.name} Logo" />
                     <h3>${member.name}</h3>
                     <p>${member.address}</p>
                     <p>${member.phone}</p>
